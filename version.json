@@ -1,0 +1,16 @@
+{
+  "version": "2.5.0",
+  "release_date": "06/09/2026",
+  "download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.0/AutoClash_Setup.exe",
+  "setup_download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.0/AutoClash_Setup.exe",
+  "update_zip_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.0/update_v2.5.0.zip",
+  "full_zip_download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.0/AutoClash_v2.5.0.zip",
+  "changelog": [
+    "- Tải trực tiếp bộ cài AutoClash_Setup.exe tốc độ cao từ GitHub Releases",
+    "- Tích hợp công nghệ nhận diện AI Tesseract OCR và ADB Platform-Tools",
+    "- Sửa lỗi khởi chạy trên Windows 10/11 và tối ưu kết nối máy chủ",
+    "- Hệ thống tự động nâng cấp từ xa không cần cấu hình thủ công"
+  ],
+  "checksum_sha256": "",
+  "force_update": false
+}
