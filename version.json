@@ -1,17 +1,17 @@
 {
-  "version": "2.5.2",
+  "version": "2.5.3",
   "release_date": "10/09/2026",
-  "download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.2/update_v2.5.2.zip",
-  "setup_download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.2/AutoClash_Setup.exe",
-  "update_zip_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.2/update_v2.5.2.zip",
-  "full_zip_download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.2/AutoClash_v2.5.2.zip",
+  "download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.3/update_v2.5.3.zip",
+  "setup_download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.3/AutoClash_Setup.exe",
+  "update_zip_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.3/update_v2.5.3.zip",
+  "full_zip_download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.3/AutoClash_v2.5.3.zip",
   "changelog": [
-    "- Cập nhật tải xong hệ thống tự động giải nén và cài đặt ngay không cần bấm thêm",
-    "- Gộp toàn diện thành 1 file AutoClash.exe duy nhất (220MB standalone), loại bỏ AutoClash_Core.exe",
-    "- Bổ sung đầy đủ thư mục runtime numps giúp phần mềm khởi chạy mượt mà trên mọi máy",
-    "- Tự động cấu hình môi trường Setup.bat ngầm không bị dừng hay chờ phím",
+    "- Tối ưu hóa tính năng kích hoạt Key qua Web: tự động liên kết mã máy HWID và nhận diện bản quyền tức thì",
+    "- Bổ sung đầy đủ 5 thư mục cốt lõi vào bộ cài đặt & cập nhật: attack_script, cv2, numps, templates, tkl_data",
+    "- Tải xong bản cập nhật hệ thống tự động giải nén và cài đặt ngay không cần bấm thêm",
+    "- Gộp toàn diện thành 1 file AutoClash.exe duy nhất (226MB standalone), loại bỏ hoàn toàn lỗi thiếu file",
     "- Tích hợp công cụ gỡ cài đặt Go_Cai_Dat.exe và Go_Cai_Dat.bat sạch sẽ"
   ],
-  "checksum_sha256": "",
+  "checksum_sha256": "425c944b0ed5a9878d74ceff29660f5a928dfcb77689426222c0f8dab53ad360",
   "force_update": false
 }
