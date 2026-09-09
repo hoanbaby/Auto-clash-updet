@@ -1,47 +1,37 @@
 # Auto-clash-updet
 
-🚀 **Hệ thống lưu trữ & phân phối bản cập nhật từ xa cho AutoClash (Cloud Update Server)**
+🚀 **Hệ thống phân phối bản cập nhật & bộ cài AutoClash qua GitHub Releases**
 
 ---
 
-## 📦 Tệp tin cập nhật hiện tại (v2.5.0)
+## 📦 Bản phát hành mới nhất: [v2.5.0](https://github.com/hoanbaby/Auto-clash-updet/releases/tag/v2.5.0)
 
-- **Phiên bản mới nhất**: `v2.5.0`
-- **Ngày phát hành**: `06/09/2026`
-- **File cập nhật**: [`update_v2.5.0.zip`](update_v2.5.0.zip) (~28.6 MB)
-- **File định tuyến phiên bản**: [`version.json`](version.json)
-
----
-
-## 🔗 Liên kết tải trực tiếp (Direct CDN Links)
-
-- **Kiểm tra phiên bản (`version.json`)**:  
-  `https://raw.githubusercontent.com/hoanbaby/Auto-clash-updet/main/version.json`
-
-- **Tải gói cập nhật (`update_v2.5.0.zip`)**:  
-  `https://raw.githubusercontent.com/hoanbaby/Auto-clash-updet/main/update_v2.5.0.zip`
+| Tệp tải về | Dung lượng | Mô tả | Link tải trực tiếp |
+| :--- | :--- | :--- | :--- |
+| **`AutoClash_Setup.exe`** | ~120 MB | Bộ cài đặt đồ họa tự động All-In-One | [Tải về Setup](https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.0/AutoClash_Setup.exe) |
+| **`AutoClash_v2.5.0.zip`** | ~110 MB | Bản đầy đủ giải nén dùng ngay (Portable) | [Tải về ZIP Full](https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.0/AutoClash_v2.5.0.zip) |
+| **`update_v2.5.0.zip`** | ~28.6 MB | Gói nâng cấp tự động cho `Updater.exe` | [Tải về Update](https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.0/update_v2.5.0.zip) |
+| **`version.json`** | ~600 B | Định tuyến phiên bản cho Auto-Updater | [Xem version.json](https://raw.githubusercontent.com/hoanbaby/Auto-clash-updet/main/version.json) |
 
 ---
 
-## 📋 Chi tiết bản cập nhật v2.5.0
+## 🔄 Cơ chế tự động tải cập nhật của phần mềm
 
-- ✔ Tích hợp sẵn ADB Platform-Tools và Tesseract OCR nhận diện AI
-- ✔ Khắc phục lỗi cài đặt và khởi chạy trên Windows 10 & Windows 11
-- ✔ Nâng cấp tính năng auto cày tài nguyên vàng, dầu và tự động đập tường
-- ✔ Tối ưu hóa cơ chế Auto-Updater từ xa tốc độ cao qua GitHub Cloud
+1. Khi người dùng mở `AutoClash.exe` hoặc `Updater.exe`:
+2. Hệ thống kiểm tra phiên bản mới nhất từ:  
+   `https://raw.githubusercontent.com/hoanbaby/Auto-clash-updet/main/version.json`
+3. Nếu phát hiện có bản cập nhật mới:
+   - Hiển thị bảng thông báo và nút **[ ⚡ CẬP NHẬT NGAY ]**.
+   - Tự động kết nối và tải gói `update_v2.5.0.zip` trực tiếp từ GitHub Releases.
+   - Tự giải nén, ghi đè các file cập nhật và khởi chạy lại bot game an toàn.
 
 ---
 
-## ⚙ Hướng dẫn cập nhật phiên bản mới (Dành cho Quản trị viên)
+## 🛠 Hướng dẫn phát hành bản cập nhật mới (Admin)
 
-Mỗi khi có bản cập nhật mới (ví dụ `v2.5.1`):
-1. Đóng gói các file cần cập nhật thành file `update_v2.5.1.zip`.
-2. Đặt file vào thư mục này.
-3. Sửa thông tin `version`, `release_date`, `download_url`, `changelog` trong file `version.json`.
-4. Commit và push lên GitHub:
+1. Đóng gói bản update thành `update_vX.X.X.zip` (hoặc `AutoClash_Setup.exe` mới).
+2. Tạo Release mới trên GitHub:
    ```bash
-   git add .
-   git commit -m "Release v2.5.1"
-   git push origin main
+   gh release create vX.X.X file1 file2 --title "AutoClash vX.X.X" --notes "Nội dung cập nhật"
    ```
-5. Tất cả người dùng chạy `AutoClash.exe` hoặc `Updater.exe` sẽ tự động nhận được thông báo cập nhật!
+3. Cập nhật `download_url` và `version` trong `version.json`, sau đó `git commit && git push`.
