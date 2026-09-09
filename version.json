@@ -1,15 +1,15 @@
 {
   "version": "2.5.1",
   "release_date": "10/09/2026",
-  "download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.1/AutoClash_Setup.exe",
+  "download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.1/update_v2.5.1.zip",
   "setup_download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.1/AutoClash_Setup.exe",
   "update_zip_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.1/update_v2.5.1.zip",
   "full_zip_download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.1/AutoClash_v2.5.1.zip",
   "changelog": [
     "- Gộp toàn bộ AutoClash và Core Engine thành 1 file AutoClash.exe duy nhất",
     "- Bổ sung công cụ gỡ cài đặt Go_Cai_Dat.exe và Go_Cai_Dat.bat sạch sẽ 1-Click",
-    "- Khắc phục triệt để lỗi SSL Certificate Verify Failed trên toàn bộ Windows",
-    "- Tối ưu hóa tốc độ tải và cài đặt siêu tốc từ GitHub Releases CDN"
+    "- Khắc phục triệt để lỗi tìm kiếm gói tệp khi cập nhật tự động",
+    "- Tối ưu hóa tốc độ tải và áp dụng cập nhật tự động từ GitHub Releases"
   ],
   "checksum_sha256": "",
   "force_update": false
