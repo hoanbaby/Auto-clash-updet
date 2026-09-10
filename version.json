@@ -1,0 +1,16 @@
+{
+  "version": "2.5.5",
+  "release_date": "10/09/2026",
+  "download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.5/update_v2.5.5.zip",
+  "setup_download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.5/AutoClash_Setup.exe",
+  "update_zip_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.5/update_v2.5.5.zip",
+  "full_zip_download_url": "https://github.com/hoanbaby/Auto-clash-updet/releases/download/v2.5.5/AutoClash_v2.5.5.zip",
+  "changelog": [
+    "- v2.5.5: Fix lỗi Incorrect padding khi nhập key kích hoạt",
+    "- Thêm công cụ Kich_Hoat_Key.bat kích hoạt tự động 1-click",
+    "- Tối ưu hóa giao diện liên kết HWID trên website",
+    "- Tích hợp sẵn license.key và public_key.pem mới nhất"
+  ],
+  "checksum_sha256": "",
+  "force_update": false
+}
